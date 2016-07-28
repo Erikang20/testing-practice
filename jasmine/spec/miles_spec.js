@@ -5,4 +5,8 @@ describe( 'Checks if this stuff works', function () {
     it( 'returns "YUP"', function () {
         expect( myFunctions.testFunc() ).toEqual( "YUP!" );
     } );
+
+    it( 'returns "NOPE!"', function () {
+        expect( myFunctions.testNopeFunc() ).toEqual( "NOPE!" );
+    } );
 } );

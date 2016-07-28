@@ -16,6 +16,9 @@
 var functions = {
     testFunc: function () {
         return "YUP!";
+    },
+    testNopeFunc: function () {
+        return "NOPE!";
     }
 }
 module.exports = functions
