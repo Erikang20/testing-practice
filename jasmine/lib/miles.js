@@ -1,4 +1,5 @@
 ///first option:
+//this works as well:
 
 // module.exports = {
 //
@@ -17,6 +18,7 @@ var functions = {
     testFunc: function () {
         return "YUP!";
     },
+    //add second function here:
     testNopeFunc: function () {
         return "NOPE!";
     }
@@ -25,3 +27,6 @@ module.exports = functions
 
 
 // after you refactor, run the test again to make sure that the new code doesn't break
+//the test is case sensitive//
+//make sure that the function names matches in the js file with the specs file
+//everytime that you add new "it" or expectations you have to run the test and "make" the test "fail"
